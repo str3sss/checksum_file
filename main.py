@@ -38,9 +38,9 @@ def returnHash(filename):
     print(sha512(filename)+' = sha512'+'\n')
 
 
+if __name__ == '__main__':
+    returnHash(test)
+    returnHash(filename)
 
-returnHash(test)
-returnHash(filename)
-
-#чтобы программа не закрывалась
-input()
+    #чтобы программа не закрывалась     
+    input()
